@@ -6,7 +6,7 @@ class Session{
 
     /**
      * If the user is not logged in, the login form shows up. Once they complete it, the $_POST['login']
-     * part goes to the Login controller
+     * part goes to the Login model
      */
     public function login(){
         if(isset($_POST['login'])){
@@ -36,6 +36,6 @@ class Session{
      */
     public function logout(){
         session_destroy();
-        echo "<script>location.reload()</script>";
+        echo "<script>window.open('index.php','_self')</script>";
     }
 }
