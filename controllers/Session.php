@@ -36,6 +36,6 @@ class Session{
      */
     public function logout(){
         session_destroy();
-        Header("Location: index.php");
+        echo "<script>location.reload()</script>";
     }
 }
