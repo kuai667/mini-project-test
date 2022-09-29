@@ -1,0 +1,99 @@
+body{
+    font-family:'Roboto',sans-serif;
+    text-align: center;
+    margin-top:50px;
+}
+.login{
+    height:500px;
+    width:500px;
+    margin:auto;
+    border: 2px solid gray;
+    padding:50px;
+    display:table-cell;
+    vertical-align: middle;
+    text-align:center;
+}
+
+h2{
+    text-align:center;
+}
+
+label{
+    color:gray;
+    font-weight: 400;
+}
+.loginForm{
+    border:none;
+    background-color: rgb(241, 241, 241);
+    color:black;
+    padding:10px;
+    width:80%;
+    font-size:15px;
+    text-align:center;
+    margin:10px;
+}
+.submit{
+    border:none;
+    width:85%;
+    border-radius: 40px;
+    color:black;
+    background-color: rgb(199, 199, 199);
+    cursor:pointer;
+    padding:10px;
+    margin-top:20px;
+    font-size:15px;
+}
+.submit:hover{
+    background-color: rgb(156, 156, 156);
+}
+.alert{
+    width:400px;
+    height:fit-content;
+    padding:15px;
+    border:none;
+    border-left:6px solid red;
+    background-color:rgb(255, 199, 199);
+    text-align:left;
+    display: table-cell;
+    vertical-align: middle;
+}
+.movies{
+    border:2px solid rgb(61, 61, 61);
+    width: 80%;
+    border-collapse:collapse;
+}
+.movies th{
+    background-color: rgb(209, 209, 209);
+}
+.movies td, .movies tr{
+    border: 2px solid rgb(218, 218, 218);
+    text-align:center;
+}
+.searchApi{
+    float:middle;
+    margin-bottom:30px;
+}
+.searchApi input[type="submit"]{
+    background-color: rgb(212, 212, 212);
+    border:none;
+    border-radius:5px;
+    padding:10px;
+    cursor:pointer;
+}
+.searchApi input[type="submit"]:hover{
+    background-color:gray;
+}
+.searchApi input[type="text"]{
+    padding:8px;
+    text-align:center;
+    border-radius:5px;
+    width:200px;
+}
+.filters{
+    background-color:rgb(202, 202, 202);
+    width:fit-content;
+    margin:50px;
+    padding:15px;
+    border-radius:20px;
+    float:middle;
+}
