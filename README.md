@@ -5,7 +5,7 @@ Each class and method has its comments with information about what they do. If y
 <b>For the installation PHP 8 is required</b><br>
 1- Download the repository with all its folders.<br>
 2- Upload to desired folder in host.<br>
-It should be ok with that!<br>
-You can see a demo of this project in my <a href="https://kuaidev.net.ar/talent/">website</a>.
-<br>
+It should be ok with that!<br><br>
+You can see a demo of this project on my <a href="https://kuaidev.net.ar/talent/">website</a>.
+<br><br>
 Hope this project is up to the company's expectations!
