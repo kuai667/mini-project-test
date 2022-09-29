@@ -8,4 +8,4 @@ Each class and method has its comments with information about what they do. If y
 It should be ok with that!<br><br>
 You can see a demo of this project on my <a href="https://kuaidev.net.ar/talent/">website</a>.
 <br><br>
-Hope this project is up to the company's expectations!
+Hope it meets the company's expectations!
